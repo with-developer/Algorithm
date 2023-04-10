@@ -2,7 +2,7 @@ def solution(num):
     answer = 0
     count = 0
     
-    while count<501:
+    while count<500:
         count += 1
         if ( count == 500 ):
             answer = -1
