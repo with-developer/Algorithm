@@ -31,4 +31,6 @@ for i in range(len(s)):
 answer=' '.join(s)
 return answer
 ```
+7. math.gcd(n,m): n과 m의 최대공약수
+8. math.lcm(n,m): n과 m의 최소공배수 -> python 3.9부터 사용 가능하며, 업데이트가 되지 않았을땐 "n*m/최대공약수"로 계산하면됨
 
