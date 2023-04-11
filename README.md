@@ -20,5 +20,15 @@ print("result: ",array)
 
 result: [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
 ```
-
+7. 문장 중 첫 단어들만 대문자로 변경
+```
+s = "hello  python"
+answer = ''
+s=s.split(' ') 
+    
+for i in range(len(s)):
+    s[i]=s[i].capitalize() #캐피탈라이즈 함수 쓰면 단어의 첫 글자만 대문자로 변경하고, 나머지는 소문자로 반환해줌.
+answer=' '.join(s)
+return answer
+```
 
